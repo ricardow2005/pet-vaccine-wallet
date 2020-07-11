@@ -1,0 +1,15 @@
+{
+    "d" : {
+      "results" : [
+        {
+          "__metadata" : {
+            "id" : "http://brjgs809.weg.net:8000/sap/opu/odata/sap/ZVLPOD_PROC_SRV/getUserLog('RWALTER')",
+            "uri" : "http://brjgs809.weg.net:8000/sap/opu/odata/sap/ZVLPOD_PROC_SRV/getUserLog('RWALTER')",
+            "type" : "ZVLPOD_PROC_SRV.getUserLog"
+          },
+          "login" : "RWALTER",
+          "name" : "Ricardo  Alberto  Walter"
+        }
+      ]
+    }
+  }

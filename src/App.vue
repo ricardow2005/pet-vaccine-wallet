@@ -83,12 +83,16 @@ mounted () {
       { title: "Home", icon: "mdi-home-city", to: "/index" },
       { title: "Clientes", icon: "mdi-clipboard-list-outline", to: "/cliente" },
       { title: "Veterinarios", icon: "mdi-graphql", to: "/veterinario" },
-      { title: "Medicamentos", icon: "mdi-account-group-outline", to: "/form" },
+      { title: "Medicamentos", icon: "mdi-account-group-outline", to: "/medicamento" },
       { title: "Procedimentos", icon: "mdi-account-group-outline", to: "/formlist" },
-      { title: "Tipo Animal", icon: "mdi-account-group-outline", to: "/tipoanimal" },
-      { title: "Animal", icon: "mdi-account-group-outline", to: "/animal" },
-
       
+      { title: "Animal", icon: "mdi-account-group-outline", to: "/animal" },
+      { title: "Tipo Animal", icon: "mdi-account-group-outline", to: "/tipoanimal" },      
+      { title: "Tipo Medicamento", icon: "mdi-account-group-outline", to: "/tipomedicamento" },
+      { title: "Tipo Enfermidade", icon: "mdi-account-group-outline", to: "/tipoenfermidade" },
+      { title: "Tipo Criticidade", icon: "mdi-account-group-outline", to: "/tipocriticidade" },      
+      
+      { title: "Sintomas", icon: "mdi-account-group-outline", to: "/sintomas" },
 
     ],
     mini: true

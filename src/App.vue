@@ -85,10 +85,9 @@ mounted () {
       { title: "Veterinarios", icon: "mdi-graphql", to: "/veterinario" },
       { title: "Medicamentos", icon: "mdi-account-group-outline", to: "/form" },
       { title: "Procedimentos", icon: "mdi-account-group-outline", to: "/formlist" },
-      { title: "Listagem Graficos", icon: "mdi-account-group-outline", to: "/graphdyn" },
-      { title: "SearchHelp", icon: "mdi-find", to: "/searchhelp" },
-      { title: "SearchHelpMaterial", icon: "mdi-find", to: "/searchhelpmaterial" },
-      { title: "Timelines", icon: "mdi-find", to: "/timelines" }
+      { title: "Tipo Animal", icon: "mdi-account-group-outline", to: "/tipoanimal" },
+      { title: "Animal", icon: "mdi-account-group-outline", to: "/animal" },
+
       
 
     ],

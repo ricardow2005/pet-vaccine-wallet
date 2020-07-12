@@ -77,7 +77,7 @@ export default {
   data: () => ({
     dialog: false,
     editedIndex: -1,
-    //backend: 'https://whiteeletronica.herokuapp.com',
+    //backend: 'https://petvaccinewallet.herokuapp.com',
     backend: "http://localhost:8000",
 
     headers: [

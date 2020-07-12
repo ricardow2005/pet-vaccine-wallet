@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import Index from '../views/Index.vue'
 import Cliente from '../views/Cliente.vue'
 import Veterinario from '../views/Veterinario.vue'
+import TipoAnimal from '../views/TipoAnimal.vue'
+import Animal from '../views/Animal.vue'
 Vue.use(VueRouter)
 
   const routes = [
@@ -27,7 +29,17 @@ Vue.use(VueRouter)
     path: '/veterinario',
     name: 'veterinario',
     component: Veterinario
-  }     
+  },     
+  {
+    path: '/tipoanimal',
+    name: 'tipoanimal',
+    component: TipoAnimal
+  },  
+  {
+    path: '/animal',
+    name: 'animal',
+    component: Animal
+  },    
 ]
 
 const router = new VueRouter({

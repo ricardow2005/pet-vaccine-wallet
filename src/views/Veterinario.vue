@@ -80,8 +80,8 @@ export default {
   data: () => ({
     dialog: false,
     editedIndex: -1,
-    //backend: 'https://petvaccinewallet.herokuapp.com',
-    backend: "http://localhost:8000",
+    backend: 'https://petvaccinewallet.herokuapp.com',
+    //backend: "http://localhost:8000",
 
     headers: [
       {

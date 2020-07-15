@@ -58,15 +58,19 @@
 
 <script>
 import axios from "axios";
+import server from './components/Server'
 
 export default {
   name: "App",
   components: {},
 
 mounted () {
+
+    backend = 'https://petvaccinewallet.herokuapp.com';
+
     axios
       //.get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .get('./json/user.json')
+      .get(this.backend + '/json/user.json')
       .then(response => {
           console.log(response.data.d.results[0])
           this.user = response.data.d.results[0]
